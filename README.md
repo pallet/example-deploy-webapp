@@ -56,7 +56,7 @@ profile, so they do not interfere with the base project dependencies.
             [com.palletops/pallet-lein "0.6.0-beta.9"]]
   :ring {:handler webapp.core/routes}
   :profiles {:pallet {:dependencies
-                      [[com.palletops/pallet "0.8.0-SNAPSHOT"]
+                      [[com.palletops/pallet "0.8.0-beta.9"]
                        [com.palletops/java-crate "0.8.0-beta.4"]
                        [com.palletops/runit-crate "0.8.0-alpha.1"]
                        [com.palletops/app-deploy-crate "0.1.0-SNAPSHOT"]
